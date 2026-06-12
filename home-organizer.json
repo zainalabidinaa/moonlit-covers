@@ -2033,7 +2033,7 @@
         "sources": [
           {
             "type": "series",
-            "genre": "None",
+            "genre": "Sci-Fi & Fantasy",
             "title": null,
             "sortBy": null,
             "tmdbId": null,
@@ -2041,7 +2041,7 @@
             "filters": null,
             "sortHow": null,
             "provider": "addon",
-            "catalogId": "tvdb.discover.series.fantasy_shows.mo9s284k",
+            "catalogId": "tmdb.discover.series.series.mo7biroh",
             "mediaType": null,
             "traktListId": null,
             "tmdbSourceType": null
@@ -2117,7 +2117,7 @@
             "filters": null,
             "sortHow": null,
             "provider": "addon",
-            "catalogId": "tvdb.discover.series.food.mo7esx5s",
+            "catalogId": "tmdb.discover.series.latest_documentary_shows.mpcqbasr",
             "mediaType": null,
             "traktListId": null,
             "tmdbSourceType": null
@@ -2620,7 +2620,7 @@
         "sources": [
           {
             "type": "series",
-            "genre": "None",
+            "genre": "Romance",
             "title": null,
             "sortBy": null,
             "tmdbId": null,
@@ -2628,7 +2628,7 @@
             "filters": null,
             "sortHow": null,
             "provider": "addon",
-            "catalogId": "tvdb.discover.series.romantic_shows.mo7eaudn",
+            "catalogId": "tmdb.discover.series.series.mo7biroh",
             "mediaType": null,
             "traktListId": null,
             "tmdbSourceType": null
@@ -2725,7 +2725,7 @@
             "filters": null,
             "sortHow": null,
             "provider": "addon",
-            "catalogId": "tvdb.discover.series.sci_fi_shows.mo9s3i10",
+            "catalogId": "tmdb.discover.series.genres.popular.sci-fi-fantasy",
             "mediaType": null,
             "traktListId": null,
             "tmdbSourceType": null
@@ -2827,7 +2827,7 @@
         "sources": [
           {
             "type": "series",
-            "genre": "None",
+            "genre": "Thriller",
             "title": null,
             "sortBy": null,
             "tmdbId": null,
@@ -2835,7 +2835,7 @@
             "filters": null,
             "sortHow": null,
             "provider": "addon",
-            "catalogId": "tvdb.discover.series.thriller_shows.mo7ecu45",
+            "catalogId": "tmdb.discover.series.series.mo7biroh",
             "mediaType": null,
             "traktListId": null,
             "tmdbSourceType": null
@@ -3838,30 +3838,34 @@
         "title": "Latest Release",
         "sources": [
           {
-            "title": "Anime Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "None",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "16",
-              "voteCountGte": 5,
-              "withOriginalLanguage": "ja"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.anime-movies.8caaddea",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Anime Series",
-            "sortBy": "first_air_date.desc",
+            "type": "series",
+            "genre": "None",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "16",
-              "voteCountGte": 5,
-              "withOriginalLanguage": "ja"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.anime-series.193e8308",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -3906,30 +3910,34 @@
         "title": "Top Rated All-Time",
         "sources": [
           {
-            "title": "Top Anime Movies",
-            "sortBy": "vote_average.desc",
+            "type": "movie",
+            "genre": "None",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "16",
-              "voteCountGte": 250,
-              "withOriginalLanguage": "ja"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-anime-movies.ef410dcc",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top Anime Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "None",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "16",
-              "voteCountGte": 100,
-              "withOriginalLanguage": "ja"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-anime-series.63ff4f07",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -3946,28 +3954,34 @@
         "title": "Upcoming",
         "sources": [
           {
-            "title": "Upcoming Anime Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "None",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "16",
-              "withOriginalLanguage": "ja"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.upcoming-anime-movies.e57db259",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Upcoming Anime Series",
-            "sortBy": "first_air_date.desc",
+            "type": "series",
+            "genre": "None",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "16",
-              "withOriginalLanguage": "ja"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.upcoming-anime-series.e71e22cf",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -4154,116 +4168,124 @@
         "title": "Action",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Action",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "28",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Action",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10759",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Action",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "28",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Action",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10759",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Action & Adventure",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "28",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Action & Adventure",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10759",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Action & Adventure",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "28",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Action & Adventure",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10759",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -4280,116 +4302,124 @@
         "title": "Adventure",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Adventure",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "12",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Adventure",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10759",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Adventure",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "12",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Adventure",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10759",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Action & Adventure",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "12",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Action & Adventure",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10759",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Action & Adventure",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "12",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Action & Adventure",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10759",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -4406,116 +4436,124 @@
         "title": "Animation",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Animation",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "16",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Animation",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "16",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Animation",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "16",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Animation",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "16",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Animation",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "16",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Animation",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "16",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Animation",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "16",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Animation",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "16",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -4532,116 +4570,124 @@
         "title": "Anime",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Animation",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "voteCountGte": 10,
-              "withKeywords": "210024",
-              "withOriginalLanguage": "ja"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Animation",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "voteCountGte": 10,
-              "withKeywords": "210024",
-              "withOriginalLanguage": "ja"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Animation",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withKeywords": "210024",
-              "withOriginalLanguage": "ja"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Animation",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withKeywords": "210024",
-              "withOriginalLanguage": "ja"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Animation",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "voteCountGte": 500,
-              "withKeywords": "210024",
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "ja"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Animation",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "voteCountGte": 500,
-              "withKeywords": "210024",
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "ja"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Animation",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "voteCountGte": 200,
-              "withKeywords": "210024",
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "ja"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Animation",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "voteCountGte": 200,
-              "withKeywords": "210024",
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "ja"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -4658,116 +4704,124 @@
         "title": "Comedy",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Comedy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "35",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Comedy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "35",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Comedy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "35",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Comedy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "35",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Comedy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "35",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Comedy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "35",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Comedy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "35",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Comedy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "35",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -4784,116 +4838,124 @@
         "title": "Crime",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Crime",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "80",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Crime",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "80",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Crime",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "80",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Crime",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "80",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Crime",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "80",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Crime",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "80",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Crime",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "80",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Crime",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "80",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -4910,116 +4972,124 @@
         "title": "Documentary",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Documentary",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "99",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Documentary",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "99",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Documentary",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "99",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Documentary",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "99",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Documentary",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "99",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Documentary",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "99",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Documentary",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "99",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Documentary",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "99",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -5036,116 +5106,124 @@
         "title": "Drama",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Drama",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "18",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Drama",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "18",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Drama",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "18",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Drama",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "18",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Drama",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "18",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Drama",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "18",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Drama",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "18",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Drama",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "18",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -5162,116 +5240,124 @@
         "title": "Family",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Family",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10751",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Family",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10751",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Family",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10751",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Family",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10751",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Family",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10751",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Family",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10751",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Family",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10751",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Family",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10751",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -5288,116 +5374,124 @@
         "title": "Fantasy",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Fantasy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "14",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Fantasy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10765",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Fantasy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "14",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Fantasy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10765",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Sci-Fi & Fantasy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "14",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Sci-Fi & Fantasy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10765",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Sci-Fi & Fantasy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "14",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Sci-Fi & Fantasy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10765",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -5414,112 +5508,124 @@
         "title": "History",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "History",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "36",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "History",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "History",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "36",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "History",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "History",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "36",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "History",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "History",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "36",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "History",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -5536,112 +5642,124 @@
         "title": "Horror",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Horror",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "27",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Horror",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Horror",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "27",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Horror",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Horror",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "27",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Horror",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Horror",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "27",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Horror",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -5658,116 +5776,124 @@
         "title": "Mystery",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Mystery",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "9648",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Mystery",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "9648",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Mystery",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "9648",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Mystery",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "9648",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Mystery",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "9648",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Mystery",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "9648",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Mystery",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "9648",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Mystery",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "9648",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -5784,60 +5910,64 @@
         "title": "Reality TV",
         "sources": [
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "series",
+            "genre": "Reality",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10764",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "series",
+            "genre": "Reality",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10764",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Reality",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10764",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Reality",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10764",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -5854,116 +5984,124 @@
         "title": "Romance",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Romance",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10749",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Romance",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10749",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Romance",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10749",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Romance",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10749",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Romance",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10749",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Romance",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10749",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Romance",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10749",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Romance",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10749",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -5980,116 +6118,124 @@
         "title": "Romantic Comedy",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Romance",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10749,35",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Romance",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10749,35",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Romance",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10749,35",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Romance",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10749,35",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Romance",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10749,35",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Romance",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10749,35",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Romance",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10749,35",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Romance",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10749,35",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -6106,116 +6252,124 @@
         "title": "Science Fiction",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Science Fiction",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "878",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Science Fiction",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "878",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Science Fiction",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "878",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Science Fiction",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "878",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Sci-Fi & Fantasy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "878",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Sci-Fi & Fantasy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "878",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Sci-Fi & Fantasy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "878",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Sci-Fi & Fantasy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "878",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -6232,116 +6386,124 @@
         "title": "Stand-Up Comedy",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Comedy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "voteCountGte": 10,
-              "withKeywords": "9716",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Comedy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "voteCountGte": 10,
-              "withKeywords": "9716",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Comedy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withKeywords": "9716",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Comedy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withKeywords": "9716",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Comedy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "voteCountGte": 500,
-              "withKeywords": "9716",
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Comedy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "voteCountGte": 500,
-              "withKeywords": "9716",
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Comedy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "voteCountGte": 200,
-              "withKeywords": "9716",
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Comedy",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "voteCountGte": 200,
-              "withKeywords": "9716",
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -6358,116 +6520,124 @@
         "title": "Thriller",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Thriller",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "53",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Thriller",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "53",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Thriller",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "53",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Thriller",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "53",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Thriller",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "53",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Thriller",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "53",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Thriller",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "53",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Thriller",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "53",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -6484,116 +6654,124 @@
         "title": "War",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "War",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10752",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "War",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10768",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "War",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10752",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "War",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10768",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "War & Politics",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10752",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "War & Politics",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "10768",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "War & Politics",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10752",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "War & Politics",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "10768",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
@@ -6610,116 +6788,124 @@
         "title": "Western",
         "sources": [
           {
-            "title": "New Movies",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Western",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "37",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.new-movies.069d5312",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "New Series",
-            "sortBy": "primary_release_date.desc",
+            "type": "movie",
+            "genre": "Western",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "37",
-              "voteCountGte": 10,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.popular-movies.29727d26",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Movies",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Western",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "37",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-all-time-movies.39f5a0c4",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Popular Series",
-            "sortBy": "popularity.desc",
+            "type": "movie",
+            "genre": "Western",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "37",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.top-of-the-year-movies.870b3ada",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Western",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "37",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.new-series.76fc7ade",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top All Time Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Western",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "withGenres": "37",
-              "voteCountGte": 500,
-              "voteAverageGte": 7,
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.popular-series.20af3ad9",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Movies",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Western",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "37",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "MOVIE",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-all-time-series.53046f30",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           },
           {
-            "title": "Top of the Year Series",
-            "sortBy": "vote_average.desc",
+            "type": "series",
+            "genre": "Western",
+            "title": null,
+            "sortBy": null,
             "tmdbId": null,
-            "filters": {
-              "year": 2026,
-              "withGenres": "37",
-              "voteCountGte": 200,
-              "releaseDateGte": "2026-01-01",
-              "releaseDateLte": "2026-12-31",
-              "withOriginalLanguage": "en"
-            },
-            "provider": "tmdb",
-            "mediaType": "TV",
-            "tmdbSourceType": "DISCOVER"
+            "addonId": "aio-metadata",
+            "filters": null,
+            "sortHow": null,
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.top-of-the-year-series.f0fd20b7",
+            "mediaType": null,
+            "traktListId": null,
+            "tmdbSourceType": null
           }
         ],
         "hideTitle": true,
